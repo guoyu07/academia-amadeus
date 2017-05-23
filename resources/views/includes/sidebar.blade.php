@@ -1,7 +1,7 @@
 <div class="col-md-3 left_col">
     <div class="left_col scroll-view">
         <div class="navbar nav_title" style="border: 0;">
-            <a href="{{ url('/') }}" class="site_title"><i class="fa fa-paw"></i> <span>Gentellela Alela!</span></a>
+            <a href="{{ url('/') }}" class="site_title"><i class="fa fa-paw"></i> <span>Amadeus</span></a>
         </div>
         
         <div class="clearfix"></div>
@@ -12,7 +12,7 @@
                 <img src="{{ Gravatar::src(Auth::user()->email) }}" alt="Avatar of {{ Auth::user()->name }}" class="img-circle profile_img">
             </div>
             <div class="profile_info">
-                <span>Welcome,</span>
+                <span>Bienvenido!</span>
                 <h2>{{ Auth::user()->name }}</h2>
             </div>
         </div>
@@ -23,6 +23,126 @@
         <!-- sidebar menu -->
         <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
             <div class="menu_section">
+                <h3>Academicos</h3>
+                <ul class="nav side-menu">
+                    <li><a><i class="fa fa-book"></i>Estudiantes<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-home"></i>Representantes<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-home"></i>Profesores<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-home"></i>Año escolar<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-home"></i>Secciones<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-home"></i>Clases particulares<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-home"></i>Materias<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="menu_section">
+                <h3>Eventos</h3>
+                <ul class="nav side-menu">
+                    <li><a><i class="fa fa-home"></i>Conciertos<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-home"></i>Temas<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu_section">
+                <h3>Instalaciones</h3>
+                <ul class="nav side-menu">
+                    <li><a><i class="fa fa-home"></i>Cubiculos<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-home"></i>Horarios<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-home"></i>Equipos<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-home"></i>Modalidades<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Agregar</a></li>
+                            <li><a href="#">Modificar</a></li>
+                            <li><a href="#">Eliminar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--<div class="menu_section">
                 <h3>Group 1</h3>
                 <ul class="nav side-menu">
                     <li><a><i class="fa fa-home"></i> Multiple link <span class="fa fa-chevron-down"></span></a>
@@ -69,7 +189,7 @@
                         </ul>
                     </li>
                 </ul>
-            </div>
+            </div>-->
         
         </div>
         <!-- /sidebar menu -->
@@ -79,7 +199,7 @@
             <a data-toggle="tooltip" data-placement="top" title="Settings">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
             </a>
-            <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+            <a data-toggle="tooltip" data-placement="top" title="FullScreen" onclick="toggleFullScreen()">
                 <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
             </a>
             <a data-toggle="tooltip" data-placement="top" title="Lock">

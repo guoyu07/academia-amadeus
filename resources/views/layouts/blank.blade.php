@@ -8,8 +8,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Gentellela Alela! | </title>
+        
+        <title>Academia de Musica Amadeus</title>
 
         <!-- Bootstrap -->
         <link href="{{ asset("css/bootstrap.min.css") }}" rel="stylesheet">
@@ -41,6 +41,8 @@
         <script src="{{ asset("js/bootstrap.min.js") }}"></script>
         <!-- Custom Theme Scripts -->
         <script src="{{ asset("js/gentelella.min.js") }}"></script>
+        <!-- Amadeus scripts -->
+        <script src="{{ asset("js/amadeus.js")}}"></script>
 
         @stack('scripts')
 

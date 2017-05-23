@@ -14,3 +14,14 @@
 Auth::routes();
 Route::get('/logout', 'Auth\LoginController@logout');
 Route::get('/', 'HomeController@index');
+
+// Estudiantes 
+
+Route::get('/estudiante/{id}', 'EstudiantesController@show');
+/*
+Route::get('/estudiantes', 'EstudiantesController@index');
+
+
+Route::put('/estudiantes/{id}', 'EstudiantesController@get');
+Route::delete('/estudiantes/{id}', 'EstudiantesController@delete');
+*/
