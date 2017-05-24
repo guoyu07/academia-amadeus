@@ -27,15 +27,15 @@
                 <ul class="nav side-menu">
                     <li><a><i class="fa fa-book"></i>Estudiantes<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
-                            <li><a href="#">Agregar</a></li>
+                            <li><a href="/estudiantes">Dashboard</a></li>
+                            <li><a href="/estudiantes/create">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>
                         </ul>
                     </li>
                     <li><a><i class="fa fa-home"></i>Representantes<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>
@@ -43,7 +43,7 @@
                     </li>
                     <li><a><i class="fa fa-home"></i>Profesores<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>
@@ -51,7 +51,7 @@
                     </li>
                     <li><a><i class="fa fa-home"></i>Año escolar<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>
@@ -59,7 +59,7 @@
                     </li>
                     <li><a><i class="fa fa-home"></i>Secciones<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>
@@ -67,7 +67,7 @@
                     </li>
                     <li><a><i class="fa fa-home"></i>Clases particulares<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>
@@ -75,7 +75,7 @@
                     </li>
                     <li><a><i class="fa fa-home"></i>Materias<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>
@@ -89,7 +89,7 @@
                 <ul class="nav side-menu">
                     <li><a><i class="fa fa-home"></i>Conciertos<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>
@@ -97,7 +97,7 @@
                     </li>
                     <li><a><i class="fa fa-home"></i>Temas<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>
@@ -110,7 +110,7 @@
                 <ul class="nav side-menu">
                     <li><a><i class="fa fa-home"></i>Cubiculos<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>
@@ -118,7 +118,7 @@
                     </li>
                     <li><a><i class="fa fa-home"></i>Horarios<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>
@@ -126,7 +126,7 @@
                     </li>
                     <li><a><i class="fa fa-home"></i>Equipos<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>
@@ -134,7 +134,7 @@
                     </li>
                     <li><a><i class="fa fa-home"></i>Modalidades<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Listar</a></li>
+                            <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Agregar</a></li>
                             <li><a href="#">Modificar</a></li>
                             <li><a href="#">Eliminar</a></li>

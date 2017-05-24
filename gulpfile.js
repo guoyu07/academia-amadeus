@@ -28,6 +28,12 @@ elixir(function(mix) {
     // Gentelella
     mix.copy('vendor/bower_components/gentelella/build/css/custom.min.css', 'public/css/gentelella.min.css');
 
+    // PNotify
+    mix.copy('vendor/bower_components/gentelella/vendors/pnotify/dist/pnotify.css', 'public/css/pnotify.min.css');
+    mix.copy('vendor/bower_components/gentelella/vendors/pnotify/dist/pnotify.buttons.css', 'public/css/pnotify.buttons.min.css');
+    mix.copy('vendor/bower_components/gentelella/vendors/pnotify/dist/pnotify.nonblock.css', 'public/css/pnotify.nonblock.min.css');
+
+
     /****************/
     /* Copy Scripts */
     /****************/
@@ -39,7 +45,12 @@ elixir(function(mix) {
     mix.copy('vendor/bower_components/gentelella/vendors/jquery/dist/jquery.min.js', 'public/js/jquery.min.js');
 
     // Gentelella
-    mix.copy('vendor/bower_components/gentelella/build/js/custom.min.js', 'public/js/gentelella.min.js');
+    mix.copy('vendor/bower_components/gentelella/build/js/custom.js', 'public/js/gentelella.min.js');
+
+    // PNotify
+    mix.copy('vendor/bower_components/gentelella/vendors/pnotify/dist/pnotify.js', 'public/js/pnotify.min.js');
+    mix.copy('vendor/bower_components/gentelella/vendors/pnotify/dist/pnotify.buttons.js', 'public/js/pnotify.buttons.min.js');
+    mix.copy('vendor/bower_components/gentelella/vendors/pnotify/dist/pnotify.nonblock.js', 'public/js/pnotify.nonblock.min.js');
 
     /**************/
     /* Copy Fonts */

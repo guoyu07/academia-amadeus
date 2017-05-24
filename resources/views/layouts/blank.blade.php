@@ -15,6 +15,10 @@
         <link href="{{ asset("css/bootstrap.min.css") }}" rel="stylesheet">
         <!-- Font Awesome -->
         <link href="{{ asset("css/font-awesome.min.css") }}" rel="stylesheet">
+        <!-- PNotify -->
+        <link href="{{ asset("css/pnotify.min.css") }}" rel="stylesheet">
+        <link href="{{ asset("css/pnotify.buttons.min.css") }}" rel="stylesheet">
+        <link href="{{ asset("css/pnotify.nonblock.min.css") }}" rel="stylesheet">
         <!-- Custom Theme Style -->
         <link href="{{ asset("css/gentelella.min.css") }}" rel="stylesheet">
 
@@ -30,8 +34,13 @@
 
                 @include('includes/topbar')
 
-                @yield('main_container')
+                <div class="right_col" role="main">
 
+                    @yield('main_container')
+
+                </div>
+
+                @include('includes/footer')
             </div>
         </div>
 
@@ -39,6 +48,10 @@
         <script src="{{ asset("js/jquery.min.js") }}"></script>
         <!-- Bootstrap -->
         <script src="{{ asset("js/bootstrap.min.js") }}"></script>
+        <!-- PNotify -->
+        <script src="{{ asset("js/pnotify.min.js") }}"></script>
+        <script src="{{ asset("js/pnotify.buttons.min.js") }}"></script>
+        <script src="{{ asset("js/pnotify.nonblock.min.js") }}"></script>
         <!-- Custom Theme Scripts -->
         <script src="{{ asset("js/gentelella.min.js") }}"></script>
         <!-- Amadeus scripts -->
